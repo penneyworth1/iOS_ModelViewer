@@ -19,10 +19,6 @@
     modelLoaded = NO; //when there is no model loaded, we should not try to use the resources needed for drawing
     //networkCheckInProgress = NO;
     
-    
-    
-    
-    
     /*
     const int maxNumberOfTouchEvents = 20;
 	int touchEventWriteIndex = 0;
@@ -33,10 +29,6 @@
 	int[] touchEventType = new int[maxNumberOfTouchEvents]; //1=down, 2=up, 3=move
 	bool[] touchEventProcessed = new boolean[maxNumberOfTouchEvents];
     */
-    
-    
-    
-    
     
     EAGLContext *context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES1];
     [EAGLContext setCurrentContext:context];
