@@ -79,7 +79,7 @@
             NSString* modelDataString = [NSString stringWithUTF8String:(const char*)input];
             
             [DBandFileAccess addModel:@"modelFromNetwork" :@"-" :modelDataString :0];
-                        
+            
             [inputStream close];
             [outputStream close];
             
